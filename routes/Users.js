@@ -45,6 +45,8 @@ users.post("/register", (req, res) => {
     });
 });
 
+user.post("/");
+
 users.post("/login", (req, res) => {
   User.findOne({
     where: {
